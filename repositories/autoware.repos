@@ -35,8 +35,8 @@ repositories:
   # universe
   universe/autoware_universe:
     type: git
-    url: https://github.com/autowarefoundation/autoware_universe.git
-    version: 0.50.0
+    url: git@github.com:Unmanned-Systems-Lab/autoware_universe.ez21.git
+    version: ez21
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
@@ -101,8 +101,8 @@ repositories:
   # launcher
   launcher/autoware_launch:
     type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 0.50.0
+    url: git@github.com:Unmanned-Systems-Lab/autoware_launch.ez21.git
+    version: ez21
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git

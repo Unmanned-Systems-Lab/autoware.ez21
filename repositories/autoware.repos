@@ -102,12 +102,12 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: git@github.com:Unmanned-Systems-Lab/autoware_launch.ez21.git
-    version: ez21
+    version: ez21_1
   # ins driver
   sensor_component/ins_driver_ez21:
     type: git
     url: git@github.com:Unmanned-Systems-Lab/ins_driver.ez21.git
-    version: main
+    version: ez21_1
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git

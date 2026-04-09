@@ -26,8 +26,8 @@ repositories:
     version: 0.12.0
   core/autoware_core:
     type: git
-    url: https://github.com/autowarefoundation/autoware_core.git
-    version: 1.7.0
+    url: git@github.com:Unmanned-Systems-Lab/autoware_core.ez21.git
+    version: ez21
   core/autoware_rviz_plugins:
     type: git
     url: https://github.com/autowarefoundation/autoware_rviz_plugins.git

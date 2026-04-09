@@ -120,7 +120,7 @@ repositories:
   sensor_component/external/robosense:
     type: git
     url: git@github.com:Unmanned-Systems-Lab/robosense_driver_ros2.git
-    version: main
+    version: ez21_1
   sensor_component/external/sync_tooling_msgs:
     type: git
     url: https://github.com/tier4/sync_tooling_msgs.git

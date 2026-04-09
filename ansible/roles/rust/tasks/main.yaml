@@ -5,6 +5,7 @@
     dest: /tmp/rustup-init.sh
     mode: "0755"
 
+    timeout: 120
 - name: Install rustup using rustup-init script
   become: false
   ansible.builtin.command: /tmp/rustup-init.sh -y

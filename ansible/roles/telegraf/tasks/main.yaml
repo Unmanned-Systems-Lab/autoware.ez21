@@ -5,6 +5,7 @@
     dest: /tmp/influxdata-archive_compat.key
     mode: 0755
 
+    timeout: 120
 - name: Verify the checksum of the key file
   ansible.builtin.command: sha256sum -c
   args:

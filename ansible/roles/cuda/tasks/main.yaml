@@ -123,6 +123,7 @@
     dest: /etc/vulkan/icd.d/nvidia_icd.json
     mode: "0644"
 
+    timeout: 120
 - name: Set permissions for Vulkan GPU vendors
   become: true
   ansible.builtin.file:
@@ -136,6 +137,7 @@
     dest: /etc/glvnd/egl_vendor.d/10_nvidia.json
     mode: "0644"
 
+    timeout: 120
 - name: Set permissions for OpenGL GPU vendors
   become: true
   ansible.builtin.file:

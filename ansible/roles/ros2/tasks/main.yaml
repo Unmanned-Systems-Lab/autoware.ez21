@@ -20,6 +20,7 @@
     dest: /tmp/ros2-apt-source.deb
     mode: "0644"
 
+    timeout: 120
 - name: Install ros2-apt-source package
   ansible.builtin.apt:
     deb: /tmp/ros2-apt-source.deb

@@ -13,6 +13,7 @@
     url: https://github.com/autowarefoundation/spconv_cpp/releases/download/spconv_v{{ spconv_version }}%2Bcumm_v{{ cumm_version }}%2Bcu128/cumm_{{ cumm_version }}_{{ spconv_normalized_arch }}{{ spconv_arch_suffix }}.deb
     dest: /tmp/cumm.deb
 
+    timeout: 120
 - name: Install the cumm package
   become: true
   ansible.builtin.apt:
@@ -25,6 +26,7 @@
     url: https://github.com/autowarefoundation/spconv_cpp/releases/download/spconv_v{{ spconv_version }}%2Bcumm_v{{ cumm_version }}%2Bcu128/spconv_{{ spconv_version }}_{{ spconv_normalized_arch }}{{ spconv_arch_suffix }}.deb
     dest: /tmp/spconv.deb
 
+    timeout: 120
 - name: Install the spconv package
   become: true
   ansible.builtin.apt:

@@ -11,6 +11,11 @@ build/
 install/
 log/
 src/
+
+# Local environment helpers
+.local_ros/
+scripts/setup_nvidia_headless_display.sh
+
 # Python
 *.pyc
 
